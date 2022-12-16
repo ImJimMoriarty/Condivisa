@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Paragliola 4Ever</title>
+</head>
+<body>
+<header>
+    <h1>Register Area</h1>
+</header>
+<main>
+    <form id="register_form" class="form_class" action="/SocialNetwork/register" method="post">
+        <div class="form_div">
+            <label>Nome:</label>
+            <input class="field_class" name="name" type="text" placeholder="Inserisci nome" autofocus>
+            <label>Cognome:</label>
+            <input class="field_class" name="cognome" type="text" placeholder="Inserisci cognome" autofocus>
+            <label>Età:</label>
+            <input class="field_class" name="eta" type="number" placeholder="Inserisci età" autofocus>
+            <label>Nickname:</label>
+            <input class="field_class" name="nickname" type="text" placeholder="Inserisci nickname" autofocus>
+            <label>Password:</label>
+            <input id="pass" class="field_class" name="password_txt" type="password" placeholder="Inserisci password">
+            <label>Reinsert Password:</label>
+            <input id="repass" class="field_class" name="repassword_txt" type="password" placeholder="Reinserisci password">
+            <button class="submit_class" type="submit" form="register_form">Crea</button>
+        </div>
+    </form>
+</main>
+<footer>
+    <p>Powered by <a href="#">Paragliola</a></p>
+</footer>
+</body>
+</html>
